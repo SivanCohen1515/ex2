@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: mulish;
+}
+
+header, main, footer, nav, aside, section, div {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+#wrapper {
+    margin: 0px 25px;
+}
+
+header {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.logo {
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 41px;
+    width: 41px;
+    display: block;
+}
+
+.logo span {
+    margin-top: 6px;
+    padding-left: 78px;
+    color: #233348;
+    font-size: 24px;
+}
+
+nav {
+    margin-top: 30px;
+}
+
+nav a {
+    margin-right: 40px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+    color: #1F1534;
+    opacity: 50%;
+}
+
+nav a:nth-child(3) {
+    margin-right: 41px;
+}
+
+.selcted {
+    opacity: 100%;
+}
+
+nav a:hover {
+    opacity: 100%;
+}
+
+h1 {
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: left;
+    color: #1F1534;
+    margin-left: 25px;
+    height: 53px;
+}
+
+.titel {
+    background-image: url("../images/title_h1.svg");
+    background-repeat: no-repeat;
+    margin-top: 73px;
+    padding-top: 14.92px;
+}
+
+.about_me img {
+    height: 475px;
+    width: 550.4598388671875px;
+    border-radius: 0px;
+    margin-top: 14px;
+}
+
+h2 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    color: #000000;
+    margin-top: 63px;
+}
+
+.about_me p {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    color: #7D7987;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 23px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;    
+    border: 0px;
+    color: #FFFFFF;
+
+    height: 56px;
+    width: 200px;
+    border-radius: 55px;
+    background: #458FF6;
+    margin-bottom: 38px;
+}
+
+.button2 button {
+    margin-top: 33px;
+    margin-bottom: 336px;
+    box-sizing: border-box;
+    border-radius: 55px;
+    color: #458FF6;
+
+    height: 56px;
+    width: 200px;
+    background: #FFFFFF;
+    border: 1.4px solid #458FF6;
+}
+
+.our_services h3 {
+    margin-left: 78px;
+    margin-top: 14px;
+    height: 2px;
+    width: 56px;
+    border-radius: 5px;
+    background-color: #000000;
+}
+
+.our_services p {
+    margin-top: 14px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    color: #7D7987;
+}
+
+.service {
+    display: service;
+    table-layout: fixed;
+    margin-top: 63px;
+    width: 1154px;
+}
+
+.dice {
+    background-color: white;
+    height: 270px;
+    width: 263px;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px 0px #E5E9F666;
+    display: table-cell;
+    float: left;
+    margin-right: 34px;
+    margin-top: 37px;
+    padding-left: 37px;
+    padding-top: 37px;
+    padding-bottom: 47px;
+    padding-right: 50px;
+}
+
+.service img {
+    height: 90px;
+    width: 91.97802734375px;
+    border-radius: 0px;
+}
+
+.service h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    color: #000000;
+}
+
+.service p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    color: #7D7987;
+}
+
+footer {
+    height: 425px;
+    width: 1599.023193359375px;
+    border-radius: 0px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+footer {
+    padding-top: 50px;
+    padding-left: 25.1px;
+}
+
+.footerlink a {
+    font-size: 20px;
+    margin-right: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footerlogo {
+    margin-top: 67.69px;
+    font-size: 24px;
+}
+
+.footerlogo span {
+    color: #FFFFFF;
+}
+
+.Copyright h4 {
+    margin-top: 129.86px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+}
+
+.client {
+    height: 470px;
+    width: 1120px;
+    border-radius: 24px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.client h2 {
+    line-height: 48px;
+    color: #FFFFFF;
+    padding-top: 25px;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+.client h3 {
+    height: 2px;
+    width: 56px;
+    margin-top: 10px;
+    margin-left: 226px;
+    border-radius: 6px;
+    background: #FFFFFF;
+}
+
+.client p {
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #FFFFFFE5;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.client img {
+    margin: auto;
+    border: 4px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    padding: 0px;
+    height: 133px;
+    width: 133px;
+    margin-top: 5px;
+}
+
+h4 {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
+h5 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: #FFFFFFD9;
+    margin-bottom: 24px;
+}
+
+.tips h2 {
+    margin-top: 70px;
+}
+
+.segment {
+    background: #FFFFFF; 
+    border-radius: 20px; 
+    box-shadow: 10px 40px 50px 0px #E5E9F666;
+    height: 512px; 
+    width: 350px; 
+    display: table-cell; 
+    float: left; 
+    margin-right: 35px;
+}
+
+
+.segment img {
+    width: 350px;
+    height: 240px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.segment h3 {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #000000;
+    height: 64px;
+    width: 265px;
+    margin-top: 21px;
+    padding-left: 33px;
+}
+
+.segment p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    color: #7D7987;
+    height: 84px;
+    width: 266px;
+    margin-top: 12px;
+    padding-left: 33px;
+}
+
+.read_more {
+    margin-top: 25px;
+    padding-left: 33px;
+}
+
+.read_more a {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #4089ED;
+}
+
+.read_more img {
+    margin-left: 10px;
+    width: 14.14px;
+    height: 9px;
+}
+
+.segment button {
+    margin-bottom: 40px;
+}
